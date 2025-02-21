@@ -30,6 +30,7 @@ public struct AudioTranscriptionParameters: Encodable {
    
    public enum Model: String {
       case whisperOne = "whisper-1"
+      case groqWhisperLargeV3Turbo = "whisper-large-v3-turbo"
    }
    
    enum CodingKeys: String, CodingKey {
